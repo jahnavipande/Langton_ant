@@ -1,0 +1,41 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  align-self: center;
+  font-family: monospace;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+
+#sketch-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.info {
+  background-color: transparent !important;
+}
+
+.textbg span {
+  background-color: black;
+  padding: 5px;
+}
+
+h1.textbg {
+  margin-bottom: 0px !important;
+}
+
+p.textbg {
+  margin-top: 0px !important;
+}
